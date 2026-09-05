@@ -18,7 +18,7 @@
 If you just want to use the application, you don't need to touch any code:
 
 1. Go to the **[Releases](../../releases)** section of this repository.
-2. Download the latest file named **`Instalar_AirBattery.exe`**.
+2. Download the latest file named **`AirBattery_1.0.exe`**.
 3. Double-click the installer and follow the on-screen steps. *(If Windows SmartScreen warns you about an unrecognized app, click "More info" > "Run anyway").*
 
 ## 💻 Development (For Developers)
@@ -28,8 +28,8 @@ If you want to modify the code or build the project yourself, you will need Pyth
 ### 1. Local Setup and Execution
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/airpods-battery-monitor.git
-cd airpods-battery-monitor
+git clone https://github.com/your-username/AirBattery.git
+cd AirBattery
 
 # Install dependencies
 pip install -r requirements.txt
@@ -43,7 +43,7 @@ To generate the final executable, this project uses **PyInstaller** to package t
 
 1. Create the base binary with PyInstaller:
    ```bash
-   pyinstaller --onefile --windowed --icon "assets/icon.png" --name "AirBatteryMonitor" --hidden-import "PIL._tkinter_finder" airpods_tray.py
+   pyinstaller --onefile --windowed --icon "assets/icon.png" --name "AirBattery" --hidden-import "PIL._tkinter_finder" airpods_tray.py
    ```
 2. Compile the attached `setup.iss` file using [Inno Setup 6](https://jrsoftware.org/isinfo.php).
 
