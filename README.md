@@ -1,6 +1,11 @@
 <div align="center">
   <img src="assets/icon.png" alt="AirBattery Icon" width="180"/>
   <h1>AirBattery for Windows</h1>
+  <p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-blue?logo=windows" alt="Windows Support">
+  <img src="https://img.shields.io/github/v/release/sauk435/AirBattery" alt="Latest Release">
+  <img src="https://img.shields.io/github/license/sauk435/AirBattery" alt="License">
+</p>
   <p>A lightweight and clean System Tray application to natively monitor your AirPods' battery on Windows.</p>
 </div>
 
