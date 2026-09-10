@@ -33,7 +33,7 @@ If you want to modify the code or build the project yourself, you will need Pyth
 ### 1. Local Setup and Execution
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/AirBattery.git
+git clone https://github.com/sauk435/AirBattery.git
 cd AirBattery
 
 # Install dependencies
